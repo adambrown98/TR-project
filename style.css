@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'oswald', sans-serif;
+   
+}
+
+li { 
+    font-size: 11px;
+    font-weight: 300;
+    letter-spacing: 0.8px;style.css
+}
+
+a {text-decoration: none;}
+
+h1 {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+p {font-family: merriweather;
+font-size: 10px;}
+
+/* product page */ 
+
+.page-size {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+display: flex;
+  background-color: #22212b;
+  padding-bottom: 10px;
+  justify-content: center;
+  position: relative;
+}
+
+.logoimg {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+
+    width: 200px;
+    padding: 20px 0 10px 0;
+    /* background-color: aqua; */
+}
+
+.toprightnav {
+    
+    list-style: none;
+    display: flex;
+    justify-content:flex-end;
+    gap: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 5px 5px 0 0px; 
+    /* background-color: aquamarine; */
+    width: 150px;
+  
+}
+
+.toprightnav img {
+    width: 25px
+
+
+}
+/* main navigation css */
+
+
+.mainnav {
+    display: flex;
+list-style: none;
+color: #e9ddc7;
+background-color: #22212b;
+justify-content: center;
+align-items: center;
+padding: 30px 0 5px 0; 
+}
+
+.mainnav li { 
+    /* display: inline-block; */
+    padding: 0 25px;
+    list-style: none;
+}
+
+
+.mainnav a {
+    color: #e9ddc7 
+    
+}
+
+.mainnav li a:hover{
+    color: #aca9ca;
+    transition: 0.3s ease;
+}
+
+.promo  {
+    font-family: 'merriweather';
+    text-align: center;
+    background: #aca9ca;
+    padding: 5px 0;
+    font-size: 10px;
+    letter-spacing: 1px;
+    color: #e9ddc7;
+}
+
+.subhead {
+    display: flex;
+    padding-top: 40px;
+}
+
+.subhead h1 {
+    margin-right: 35px;
+    margin-left: 50px;
+    flex: 1;
+}
+
+.subhead p {
+    padding-top: 15px;
+    flex: 3;
+    margin-right: 20px;
+}    
+
+/* coffee types */
+
+#coffeeproducts {
+    text-align: center;
+}
+
+#coffeeproducts .prod-contain {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#coffeeproducts .prod-indv{
+    width: 30%;
+    min-width: 250px;
+    padding: 30px 15px;
+}
+
+#coffeeproducts .prod-indv img{
+    width: 100%;
+}
+
+#coffeeproducts .prod-indv .descript {
+    padding: 5px 0px;
+}
+
+#coffeeproducts .prod-indv .descript .coffee-name {
+    font-weight: 400;
+    padding-bottom: 5px;
+}
+
+#coffeeproducts .prod-indv .descript .coffee-type {
+    font-size: 10px;
+    padding-bottom: 3px;
+}
+
+#coffeeproducts .prod-indv .descript .price {
+    font-weight:bold;
+    font-size: 13px;
+}
+
+#coffeeproducts .prod-indv .descript .stars {
+    width: 100px;
+    margin-top: 5px;
+}
+
+#coffeeproducts .prod-indv .descript .buy-bttn {
+    background: #ACA8CB;
+    border-width: 0;
+    padding: 10px 60px;
+    border-radius: 25px;
+    margin-top: 5px;
+
+}
+
+button:hover {
+    background: black;
+    color: #e9ddc7;
+    transition: 0.3s ease;
+    box-shadow: 2px 2px 7px #888888;
+}
+
+
+
+.prod-contain {
+    margin: 30px;
+}
+
+/*  footer */
+
+#footer-sec {
+    background:#22212b;
+    padding: 60px 30px;
+    
+}
+
+#footer-sec .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+#footer-sec .footer .footlist {
+    list-style: none;
+}
+
+#footer-sec .footer .foot-text {
+    margin: 5px 0;
+}
+
+
+#footer-sec .footer .foot-text a {
+    color: #e9ddc7;
+}
